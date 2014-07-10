@@ -32,13 +32,13 @@ par(mfrow = c(2,2))
 
 # plot 4.1
 with(powerSubset, plot(DateTime, Global_active_power, type = "l",
-                       xlab = "datetime",
+                       xlab = "",
                        ylab = "Global Active Power (kilowatts)")
 )
 
 # plot 4.2
 with(powerSubset, plot(DateTime, Voltage, type = "l",
-                       xlab = "",
+                       xlab = "datetime",
                        ylab = "Voltage")
 )
 
